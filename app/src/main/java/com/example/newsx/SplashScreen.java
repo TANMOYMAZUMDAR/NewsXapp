@@ -42,7 +42,7 @@ public class SplashScreen extends AppCompatActivity {
 
     private static int SPLASH_TIMER=5000;
    private ImageView backgorundImage;
-   private TextView newx;
+
 
    //Animation
     Animation sideAnim,bottomAnim;
@@ -53,14 +53,13 @@ public class SplashScreen extends AppCompatActivity {
 
            //Hooks
         backgorundImage=findViewById(R.id.background_image);
-        newx=findViewById(R.id.newsx);
+
 
         sideAnim= AnimationUtils.loadAnimation(this,R.anim.side_anim);
         bottomAnim=AnimationUtils.loadAnimation(this,R.anim.bottom_anim);
 
         //set Animations on elements
         backgorundImage.setAnimation(sideAnim);
-        newx.setAnimation(bottomAnim);
 
 
         new Handler().postDelayed(new Runnable() {
