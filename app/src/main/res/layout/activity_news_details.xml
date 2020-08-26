@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewsDetailsActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/transparent">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="top"
+        android:layout_marginTop="-3dp"
+        android:id="@+id/progressBar"
+        android:background="@android:color/transparent"
+        android:progressDrawable="@drawable/custom_progress"
+        android:progress="20"/>
+    </FrameLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"/>
+</LinearLayout>

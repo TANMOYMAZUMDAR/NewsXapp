@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewsX</string>
+    <string name="name">Name</string>
+    <string name="the_description">The Description</string>
+    <string name="country">Country</string>
+    <string name="category">Category</string>
+    <string name="language">Language</string>
+    <string name="newsx">NEWSX</string>
+    <string name="tanmoy_mazumdar">Tanmoy Mazumdar</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FrontScreenActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchh1">
+        <ProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/progressBar"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchh2"
+            android:layout_toEndOf="@id/progressBar"
+            android:layout_toStartOf="@+id/fillerBtn"
+            android:background="@drawable/shape_rect"
+            android:hint="Search"
+            android:padding="8dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorGray2"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fillerBtn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_filter_list"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/row_source_list"
+        android:id="@+id/sourcesRv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

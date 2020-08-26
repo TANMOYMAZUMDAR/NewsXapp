@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:contentPadding="5dp"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameTv"
+            android:text="Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionTv"
+            android:text="The description of the news source"
+            android:textColor="@color/colorBlack"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/countryTv"
+                    android:layout_weight="1"
+                    android:text="Country"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CategoryTv"
+                    android:layout_weight="1"
+                    android:text="Category"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/languageTv"
+                    android:layout_weight="1"
+                    android:text="Language"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
