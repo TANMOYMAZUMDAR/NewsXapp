@@ -14,3 +14,7 @@ THIS APP IS A NEWS APP WITH GLOBAL NEWS ALL OVER THE WORLD WITH ALL CATEGORY -:
 #Contributor
 
 Tanmoy Mazumdar
+
+#LICENSE
+
+License created [Apacha
