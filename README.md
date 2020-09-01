@@ -10,3 +10,7 @@ THIS APP IS A NEWS APP WITH GLOBAL NEWS ALL OVER THE WORLD WITH ALL CATEGORY -:
 -One can share the news with other on various application available in their respectively mobile
 
 -One can also copy the URL of the news.
+
+#Contributor
+
+Tanmoy Mazumdar
