@@ -1,5 +1,7 @@
 # NewsXapp
+
 Video Demo Link-https://drive.google.com/file/d/1eUWgk40rvgB0WY0TpgOLhGx_hpTwgHIR/view?usp=sharing
+
 THIS APP IS A NEWS APP WITH GLOBAL NEWS ALL OVER THE WORLD WITH ALL CATEGORY -:
 
 -This works on real time data and can shows the latest news with date and time mentioned
